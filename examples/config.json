@@ -1,0 +1,31 @@
+{
+  "Pattern": "Daily",
+  "DailyOptions": {
+    "EveryDays": 3
+  },
+  "WeeklyOptions": {
+    "RecursiveEveryWeeks": 1,
+    "WeekDays": ["Monday", "Wednesday", "Friday"]
+  },
+  "MonthlyOptions": {
+    "Type": "ByDays",
+    "ByDays": {
+      "Days": 15,
+      "EveryMonths": 2
+    },
+    "ByWeekDays": {
+      "Ordinal": "Third",
+      "WeekDay": "Tuesday",
+      "EveryMonths": 1
+    }
+  },
+  "StartTime": "09:00 AM",
+  "EndTime": "10:30 AM",
+  "TimeZone": {
+    "Name": "Asia/Shanghai"
+  },
+  "Range": {
+    "StartDateAt": "2022-05-01",
+    "EndDateAt": "2022-05-31"
+  }
+} 
